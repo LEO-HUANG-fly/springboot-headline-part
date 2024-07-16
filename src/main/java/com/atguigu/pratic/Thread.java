@@ -15,5 +15,6 @@ public class Thread implements Runnable{
     public void run() {
         Integer a=new Integer(5);
         int b=a;
+        System.out.println(1);
     }
 }
