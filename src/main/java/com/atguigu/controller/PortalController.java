@@ -29,6 +29,7 @@ public class PortalController{
     @GetMapping("findAllTypes")
     public Result  findAllTypes(){
         Result result=typeService.findAllTYpes();
+        int a=1;
         return  result;
     }
    @PostMapping("findNewsPage")
